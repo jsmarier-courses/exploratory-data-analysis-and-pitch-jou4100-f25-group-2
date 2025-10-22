@@ -1,6 +1,6 @@
 **Date**<br>
 **Course Code & Course Name**<br>
-**Student's First Name & Last Name**<br>
+**Luc Baisley; Claire Forest; Joyce; Naomie**<br>
 **Presented to Jean-Sébastien Marier**<br>
 
 # Exploratory Data Analysis (EDA) & Pitch
