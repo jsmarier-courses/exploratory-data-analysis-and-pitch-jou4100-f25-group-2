@@ -78,19 +78,19 @@ The second visualization, **Distribution of English and French Speakers by Ward*
 
 !![alt text](image-1.png)
 
-*Figure 1: This pivot table shows the total and proportional breakdown of official-language groups for the entire City of Ottawa*
+*Figure 1: (Above) This pivot table shows the total and proportional breakdown of official-language groups for the entire City of Ottawa*
 
 ![alt text](image-2.png)
 
-*Figure 2: This pivot table shows each ward’s percentage of French speakers relative to its total population*
+*Figure 2: (Above) This pivot table shows each ward’s percentage of French speakers relative to its total population*
 
 ![alt text](image-3.png)
 
-*Figure 3: This exploratory chart displays the proportion of French speakers in each ward*
+*Figure 3: (Above) This exploratory chart displays the proportion of French speakers in each ward*
 
 ![alt text](image-4.png)
 
-*Figure 4: This exploratory chart shows the distribution of English and French speakers by ward*
+*Figure 4: (Above) This exploratory chart shows the distribution of English and French speakers by ward*
 
 ## 4. Potential Story
 
