@@ -77,15 +77,19 @@ I then visualized these results through two charts in Google Sheets. The first, 
 The second visualization, **Distribution of English and French Speakers by Ward**, used a stacked horizontal bar chart to show both groups within each ward (Figure 4). Each bar represented 100 per cent of a ward’s population, split between English and French portions. This layout highlighted the same geographic divide: east-end wards display a more balanced linguistic composition, while most others remain overwhelmingly anglophone. Citywide, English speakers represent roughly 82 per cent of residents and French speakers 14 per cent, consistent with the pivot results.
 
 !![alt text](image-1.png)
+
 *Figure 1: This pivot table shows the total and proportional breakdown of official-language groups for the entire City of Ottawa*
 
 ![alt text](image-2.png)
+
 *Figure 2: This pivot table shows each ward’s percentage of French speakers relative to its total population*
 
 ![alt text](image-3.png)
+
 *Figure 3: This exploratory chart displays the proportion of French speakers in each ward*
 
 ![alt text](image-4.png)
+
 *Figure 4: This exploratory chart shows the distribution of English and French speakers by ward*
 
 ## 4. Potential Story
