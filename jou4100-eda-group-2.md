@@ -19,6 +19,8 @@ Our group conducted a VIMO analysis based on our hypothesis of “Could official
 
 Since the original dataset is from Statistics Canada’s official Census, it ensures a high level of accuracy and reliability. Internally, the data seemed consistent, with the total of each category equaling the Total column for each ward. This consistency affirms that the dataset is accurately representative of the variable used, while also supporting the overall validity of the dataset. As our group first looked over the dataset, we saw no clear invalid entries. However, our group made sure to double-check the totals for each language group, as this is where we viewed the greatest risk of invalid entries. Confirming that the number of individuals from each row did not exceed the total population, and by utilising the Google Sheets `=SUM` formula, we were able to confirm that our first view of the dataset was correct. Along with our own validation, knowing that the dataset came from the City of Ottawa and is based on official census data, not something manually typed by individuals, it is unlikely to have random errors or even made-up values.
 
+1. =SUM(B3:B6)
+
 There were few or no blanks in the dataset, and if there were, they were likely due to unavailable information rather than a mistake. Although these blanks do not significantly change or affect any of our analysis or findings, they should still be noted, especially if any values were to be turned into percentages. Any outliers within the dataset were expected due to Ottawa’s bilingual demographic. While some wards showed higher or lower proportions of French or bilingual speakers, these fluctuations were treated as meaningful rather than abnormal, ensuring that we are viewing them as geographical differences rather than an issue with the data's quality.
 
 From this analysis, we can draw the conclusion that the data is valid, comes from reliable sources, and does not have any major errors, meaning we can confidently use it for the following stages of our analysis.
@@ -88,3 +90,7 @@ Bounegru, L., & Gray, J. (Eds.). (2021). *The Data Journalism Handbook 2: Toward
 City of Ottawa. (2023, November 22). 2021 Long Form Census – Ward Data [Data set]. Planning, Real Estate and Economic Development Department, Research & Forecasting Branch. Open Data Ottawa. [https://open.ottawa.ca/datasets/ottawa::2021-long-form-census-ward-data/about](https://open.ottawa.ca/datasets/ottawa::2021-long-form-census-ward-data/about)
 
 Statistics Canada. (2020, September 23). Data accuracy and validation: Methods to ensure the quality of data [Video]. Updated November 25, 2021. Statistics Canada. [https://www.statcan.gc.ca/en/wtc/data-literacy/catalogue/892000062020008](https://www.statcan.gc.ca/en/wtc/data-literacy/catalogue/892000062020008)
+
+Government of Canada, S. C. (2022, May 11). Data accuracy and validation: Methods to ensure the quality of data. Government of Canada, Statistics Canada. https://www.statcan.gc.ca/en/wtc/data-literacy/catalogue/892000062020008  
+
+Marier, J.-S. (2021, October 9). Cleaning Data in Google Sheets. YouTube. https://youtu.be/U4yigiawIEU?si=oNA67oGIGaIFeZVr 
