@@ -6,7 +6,7 @@
 # Exploratory Data Analysis (EDA) & Pitch
 ## 1. Introduction
 
-- Joyce
+For this exploratory data analysis and pitch, we are to clean and analyse the dataset called 2021 long-form census - ward data (https://open.ottawa.ca/datasets/ottawa::2021-long-form-census-ward-data/about), then create visualisations in charts and identify a potential story idea that could emerge from the dataset. There are two versions of this dataset: the long and the short. The long-form dataset was a questionnaire sent to 25% of households, and the short-form dataset was sent to 100% of households. Because one is a census and the other is a survey, the variables available in both have different values. We will be discussing how we obtained our data, how we worked to understand it, and how we identified a potential story within the data. 
 
 ## 2. Getting Data
 
