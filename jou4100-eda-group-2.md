@@ -29,7 +29,12 @@ When performing the cleaning data portion of the Exploratory Data Analysis, our 
 
 The first step performed in this data cleaning process was removing the extra white spaces that were either within or around cell entries. When doing this, we used Google Sheets data cleaning tools; Data → Data cleanup → Trim whitespace to clean hidden spaces in the characteristics column. By performing this cleanup step, it ensured consistency if we used filters or formulas later. After performing the trim whitespaces tool, it was evident that the values now appear consistent across all rows, minimizing the possibility of mismatched categories. 
 
+![alt text](<Screenshot 2025-11-05 at 3.57.12 PM.png>)
+![alt text](<Screenshot 2025-11-05 at 3.57.30 PM.png>)
+
 Next, we isolated the data relevant to our hypothesis from the original dataset by creating a new sheet that only consisted of rows and columns specific to “First official language spoken for the population in private households”. This included copying only relevant rows, such as rows 432 to 436, excluding the rest of the unrelated information from the census sheet. This made the dataset easier to manage and prepared it for analysis without unrelated information cluttering the view.
+
+![alt text](<Screenshot 2025-10-29 at 4.33.17 PM.png>)
 
 Finally, we tried to check and remove any duplicates using Google Sheets; Data → Data cleanup → Remove duplicates. However, the dataset did not contain any duplicate rows. Although this step turned out not to be required, confirming that there were no duplicates helped establish the dataset’s integrity, in turn aiding in future parts of our analysis.
 
