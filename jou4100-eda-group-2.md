@@ -82,10 +82,6 @@ The second visualization, **Distribution of English and French Speakers by Ward*
 
 ## 4. Potential Story
 
-- Naomie
-
-## 5. Conclusion
-
 While the city remains proudly bilingual, the 2021 Census data shows a variation across wards. English dominates in almost every region, while French is mainly in the eastern wards (especially Orléans East-Cumberland and Orléans West-Innes). Central wards like Rideau-Vanier and Rideau-Rockcliffe also show strong francophone representation, highlighting Ottawa’s historical francophone core. In contrast, outer suburban and rural areas such as Barrhaven and Kanata are overwhelmingly anglophone. Some interviews that we thought would be relevant are the  City of Ottawa’s Office of the Bilingualism Policy Coordinator and the Local francophone associations (e.g., La Cité collégiale, Association des communautés francophones d’Ottawa)
 
 This raises the question of how local language policies could shape where people live. Could official language laws in each ward affect the French population? If some wards offer stronger bilingual services or more support for French speakers, they may attract and retain more francophone residents. In contrast, areas with fewer services could see their French-speaking populations decline.  
