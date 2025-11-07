@@ -10,7 +10,8 @@ For this exploratory data analysis and pitch, we are to clean and analyse the da
 
 ## 2. Getting Data
 
-- Joyce 
+The first step we took was downloading our data and importing it into Google Sheets. To do this, we went to the City of Ottawa’s open data portal for the 2021 Long Form Census - Ward Data. From that point, you should click the button titled “download”, which will download the data in CSV file form onto your computer. Then go to Google Sheets, create a new spreadsheet, click File, then click Import, and choose the CSV you just downloaded. Here is the link to ours: https://docs.google.com/spreadsheets/d/1QBEhG0PbpGddCAFMy797ZWpODVEcarKeV_hqneOPJ4s/edit?usp=sharing. As we took our first look at the dataset we noticed that with the many rows it had it was a little hard to understand at first there are 24 columns and 2603 rows we noticed that most english speaking populationns lived in the west and the french speaking poupluation lived in the west which only aligned with our preexisting assumption as from our prior knowledge of the city we expected that one side of the city would have a large demographic of english speakers over french and french over english. For A has many variables, such as nominal, discrete, and continuous, to name a few, as it had the different characteristics that the population presented, ranging from age, marital status, income, language spoken, etc, B is the city of Ottawa as a whole, and the rest of them are the different neighbourhoods and wards. After the observations we made, we have come to ask the question: Could official language laws in each ward affect the French population? 
+![alt text](<Screenshot 2025-11-01 at 10.40.52 PM.png>)
 
 ## 3. Understanding Data
 ### 3.1. VIMO Analysis
