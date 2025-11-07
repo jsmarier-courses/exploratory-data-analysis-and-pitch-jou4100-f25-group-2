@@ -13,7 +13,10 @@ For this exploratory data analysis and pitch, we are to clean and analyse the da
 The first step we took was downloading our data and importing it into Google Sheets. To do this, we went to the City of Ottawa’s open data portal for the **2021 Long Form Census - Ward Data**. From that point, you should click the button titled “download”, which will download the data in CSV file form onto your computer. Then go to Google Sheets, create a new spreadsheet, click File, then click Import, and choose the CSV you just downloaded. [Here is our data cleaned](https://docs.google.com/spreadsheets/d/1QBEhG0PbpGddCAFMy797ZWpODVEcarKeV_hqneOPJ4s/edit?usp=sharing). 
 
 As we took our first look at the dataset we noticed that with the many rows it had it was a little hard to understand at first there are ``24 columns`` and ``2603 rows`` we noticed that most English-speaking populations lived in the West-end of Ottawa and the French-speaking poupluation lived in the East-end. This one observation aligned with our preexisting assumption as from our prior knowledge of the city we expected that the language divide be geographic, with English centred in the West, and French, in the East. For ``Column A`` had many variables, such as nominal, discrete, and continuous, to name a few, as it had the different characteristics that the population presented, ranging from age, marital status, income, language spoken, etc, ``Column B`` is the city of Ottawa as a whole, and the rest of them are the different neighbourhoods and wards. After the observations we made, we have come to ask the question: **Could official language barriers in each ward affect the French population?** 
+
 ![alt text](<Screenshot 2025-11-01 at 10.40.52 PM.png>)
+
+*Figure 1: (Above) *
 
 ## 3. Understanding Data
 ### 3.1. VIMO Analysis
@@ -37,9 +40,13 @@ The first step performed in this data cleaning process was removing the extra wh
 ![alt text](<Screenshot 2025-11-05 at 3.57.12 PM.png>)
 ![alt text](<Screenshot 2025-11-05 at 3.57.30 PM.png>)
 
+*Figure 2 & 3: (Above) These screen captures show the before and after of the whitespace trimming on the original dataset*
+
 Next, we isolated the data relevant to our hypothesis from the original dataset by creating a new sheet that only consisted of rows and columns specific to “First official language spoken for the population in private households”. This included copying only relevant rows, such as rows 432 to 436, excluding the rest of the unrelated information from the census sheet. This made the dataset easier to manage and prepared it for analysis without unrelated information cluttering the view.
 
 ![alt text](<Screenshot 2025-10-29 at 4.33.17 PM.png>)
+
+*Figure 4: (Above) This screen captures shows our final isolated dataset*
 
 Finally, we tried to check and remove any duplicates using Google Sheets; `Data → Data cleanup → Remove duplicates`. However, the dataset did not contain any duplicate rows. Although this step turned out not to be required, confirming that there were no duplicates helped establish the dataset’s integrity, in turn aiding in future parts of our analysis.
 
@@ -53,25 +60,25 @@ To establish a baseline, I built a pivot table showing the total and proportiona
 
 !![alt text](image-1.png)
 
-*Figure 1: (Above) This pivot table shows the total and proportional breakdown of official-language groups for the entire City of Ottawa*
+*Figure 5: (Above) This pivot table shows the total and proportional breakdown of official-language groups for the entire City of Ottawa*
 
 To explore local variation, I created a second pivot table (see Figure 2 below) calculating each ward’s percentage of French speakers relative to its total population using the formula `(French / Total) * 100`. This standardized measure allowed for direct comparisons among wards of different sizes. The results showed clear east-west asymmetry: the highest shares of French speakers were found in Orléans South-Navan (32.4%) and Orléans East-Cumberland (32.2%), while the lowest appeared in West Carleton-March (5.3%) and Rideau-Jock (5.8%).
 
 ![alt text](image-2.png)
 
-*Figure 2: (Above) This pivot table shows each ward’s percentage of French speakers relative to its total population*
+*Figure 6: (Above) This pivot table shows each ward’s percentage of French speakers relative to its total population*
 
 I then visualized these results through two charts in Google Sheets. The first, **Percentage of French-Speaking Residents by Ward**, was a column chart that displayed the proportion of French speakers in each ward (see Figure 3 below). For example, in Orléans East–Cumberland, 15,690 French speakers out of 48,680 residents produced a value of 32.2 per cent. The chart revealed a distinct spatial trend: French-speaking populations are heavily concentrated in the east, particularly near Orléans and the Ottawa-Gatineau corridor, while western suburban wards such as Kanata, Stittsville, and Barrhaven fall below seven per cent.
 
 ![alt text](image-3.png)
 
-*Figure 3: (Above) This exploratory chart displays the proportion of French speakers in each ward*
+*Figure 7: (Above) This exploratory chart displays the proportion of French speakers in each ward*
 
 The second visualization, **Distribution of English and French Speakers by Ward**, used a stacked horizontal bar chart to show both groups within each ward (see Figure 4 below). Each bar represented 100 per cent of a ward’s population, split between English and French portions. This layout highlighted the same geographic divide: east-end wards display a more balanced linguistic composition, while most others remain overwhelmingly anglophone. Citywide, English speakers represent roughly 82 per cent of residents and French speakers 14 per cent, consistent with the pivot results.
 
 ![alt text](image-4.png)
 
-*Figure 4: (Above) This exploratory chart shows the distribution of English and French speakers by ward*
+*Figure 8: (Above) This exploratory chart shows the distribution of English and French speakers by ward*
 
 ## 4. Potential Story
 
