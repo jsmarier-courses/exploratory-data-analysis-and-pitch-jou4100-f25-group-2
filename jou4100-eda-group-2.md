@@ -14,9 +14,9 @@ The first step we took was downloading our data and importing it into Google She
 
 As we took our first look at the dataset we noticed that with the many rows it had it was a little hard to understand at first there are ``24 columns`` and ``2603 rows`` we noticed that most English-speaking populations lived in the West-end of Ottawa and the French-speaking poupluation lived in the East-end. This one observation aligned with our preexisting assumption as from our prior knowledge of the city we expected that the language divide be geographic, with English centred in the West, and French, in the East. For ``Column A`` had many variables, such as nominal, discrete, and continuous, to name a few, as it had the different characteristics that the population presented, ranging from age, marital status, income, language spoken, etc, ``Column B`` is the city of Ottawa as a whole, and the rest of them are the different neighbourhoods and wards. After the observations we made, we have come to ask the question: **Could official language barriers in each ward affect the French population?** 
 
-![alt text](<Screenshot 2025-11-01 at 10.40.52 PM.png>)
+![alt text](<Screenshot 2025-11-07 at 3.15.15 PM-1.png>)
 
-*Figure 1: (Above) *
+*Figure 1: (Above) This shows the first 36 rows and 11 columns of the dataset right after importation
 
 ## 3. Understanding Data
 ### 3.1. VIMO Analysis
