@@ -8,7 +8,7 @@
 
 For this exploratory data analysis and pitch, we are to clean and analyse the dataset called 2021 long-form census - ward data (City of Ottawa, 2023), then create visualisations in charts and identify a potential story idea that could emerge from the dataset. There are two versions of this dataset: the long and the short. The long-form dataset was a questionnaire sent to 25% of households, and the short-form dataset was sent to 100% of households. Because one is a census and the other is a survey, the variables available in both have different values. We will be discussing how we obtained our data, how we worked to understand it, and how we identified a potential story within the data. 
 
-The dataset is available on [2021 Long Form Census - Ward Data](https://open.ottawa.ca/datasets/ottawa::2021-long-form-census-ward-data/about), and the CSV version is hosted on the instructor’s [Github portal](https://github.com/jsmarier-courses/jou4100-uottawa-f2025-exploratory-data-analysis-and-pitch-jou4100_jou4500_mpad2003_project2_templa-4)
+Our data was collected by Statistics Canada and published by the City of Ottawa. The dataset is available on [2021 Long Form Census - Ward Data](https://open.ottawa.ca/datasets/ottawa::2021-long-form-census-ward-data/about), and the CSV version is hosted on our instructor’s [Github portal](https://github.com/jsmarier-courses/jou4100-uottawa-f2025-exploratory-data-analysis-and-pitch-jou4100_jou4500_mpad2003_project2_templa-4)
 
 ## 2. Getting Data
 
@@ -128,3 +128,5 @@ Marier, J.-S. (2021, October 9). Cleaning Data in Google Sheets. YouTube. [https
 
 Office of the Commissioner of Official Languages. (2023, June 14). Canadians for Language Fairness v. Ottawa (City). Office of the Commissioner of Official Languages.
 [https://www.clo-ocol.gc.ca/en/decisions/court-decisions/canadians-language-fairness-v-ottawa-city](https://www.clo-ocol.gc.ca/en/decisions/court-decisions/canadians-language-fairness-v-ottawa-city)
+
+
