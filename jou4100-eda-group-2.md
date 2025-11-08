@@ -8,6 +8,8 @@
 
 For this exploratory data analysis and pitch, we are to clean and analyse the dataset called 2021 long-form census - ward data (City of Ottawa, 2023), then create visualisations in charts and identify a potential story idea that could emerge from the dataset. There are two versions of this dataset: the long and the short. The long-form dataset was a questionnaire sent to 25% of households, and the short-form dataset was sent to 100% of households. Because one is a census and the other is a survey, the variables available in both have different values. We will be discussing how we obtained our data, how we worked to understand it, and how we identified a potential story within the data. 
 
+The dataset is available on [2021 Long Form Census - Ward Data](https://open.ottawa.ca/datasets/ottawa::2021-long-form-census-ward-data/about), and the CSV version is hosted on the instructor’s [Github portal](https://github.com/jsmarier-courses/jou4100-uottawa-f2025-exploratory-data-analysis-and-pitch-jou4100_jou4500_mpad2003_project2_templa-4)
+
 ## 2. Getting Data
 
 The first step we took was downloading our data and importing it into Google Sheets. To do this, we went to the City of Ottawa’s open data portal for the **2021 Long Form Census - Ward Data**. From that point, you should click the button titled “download”, which will download the data in CSV file form onto your computer. Then go to Google Sheets, create a new spreadsheet, click File, then click Import, and choose the CSV you just downloaded. [Here is our data cleaned](https://docs.google.com/spreadsheets/d/1QBEhG0PbpGddCAFMy797ZWpODVEcarKeV_hqneOPJ4s/edit?usp=sharing). 
@@ -82,7 +84,13 @@ The second visualization, **Distribution of English and French Speakers by Ward*
 
 ## 4. Potential Story
 
-Our potential story is about how local language policies could shape where people live. Could official language laws in each ward affect the French population? If some wards offer stronger bilingual services or more support for French speakers, they may attract and retain more francophone residents. In contrast, areas with fewer services could see their French-speaking populations decline.
+Our potential story explores how local language policies and bilingual services could shape where people choose to live in Ottawa. The city has long presented itself as officially bilingual, but the strength and visibility of French services can vary from one ward to another (City of Ottawa, n.d.-a). We want to understand whether wards that offer stronger bilingual services, such as accessible French documentation, signage, or community programming, attract and retain more francophone residents compared to areas where these services are limited.
+
+According to the City of Ottawa’s Bilingualism Policy (City of Ottawa, n.d.-b), all residents should be able to receive municipal services in English or French. However, past research shows that implementation is uneven and often shaped by local demographics and political priorities (Centre de recherche en civilisation canadienne-française, 2018). Data from the City’s 2021 Census Highlights for Ottawa and Region show that French-speaking residents are concentrated in the east end, particularly around Orléans and Vanier (City of Ottawa, 2021). This raises questions about whether city policies and community resources reinforce that pattern over time.
+
+For additional context, the Profile of the Francophone Population in Ontario – 2021 report by the Government of Ontario (2021) shows that Ottawa has one of the province’s largest francophone communities, but growth is uneven across neighbourhoods. Legal disputes such as Canadians for Language Fairness v. Ottawa (City) (Office of the Commissioner of Official Languages, 2023) also highlight how access to French-language services remains a live policy issue.
+
+To tell this story, we would combine census data with interviews from municipal bilingualism officials, representatives of francophone organizations such as La Cité and ACFO Ottawa, and residents from both highly bilingual and predominantly anglophone wards. We would also analyze where French schools, cultural centres, and health or social services are located to assess how local service networks intersect with population patterns. This mixed approach would help link census statistics to real experiences of linguistic access and belonging in the city.
 
 ## 5. Conclusion
 
@@ -95,10 +103,28 @@ Some challenges we faced were going through the large dataset and trying to find
 
 Bounegru, L., & Gray, J. (Eds.). (2021). *The Data Journalism Handbook 2: Towards A Critical Data Practice*. Amsterdam University Press. [https://ocul-crl.primo.exlibrisgroup.com/permalink/01OCUL_CRL/hgdufh/alma991022890087305153](https://ocul-crl.primo.exlibrisgroup.com/permalink/01OCUL_CRL/hgdufh/alma991022890087305153)
 
+Centre de recherche en civilisation canadienne-française. (2018). The City of Ottawa’s long road to bilingualism. Vie française dans la capitale.
+[https://www.viefrancaisecapitale.ca/pouvoir/city_ottawas_long_road_bilinguism-eng](https://www.viefrancaisecapitale.ca/pouvoir/city_ottawas_long_road_bilinguism-eng)
+
+City of Ottawa. (n.d.-a). French language services. City of Ottawa.
+[https://ottawa.ca/en/city-hall/creating-equal-inclusive-and-diverse-city/french-language-services](https://ottawa.ca/en/city-hall/creating-equal-inclusive-and-diverse-city/french-language-services)
+
+City of Ottawa. (n.d.-b). Bilingualism policy [Administrative policy]. City of Ottawa.
+[https://ottawa.ca/en/city-hall/city-manager-administration-and-policies/policies/administrative-policies](https://ottawa.ca/en/city-hall/city-manager-administration-and-policies/policies/administrative-policies)
+
+City of Ottawa. (2021). Languages: 2021 Census highlights for Ottawa and region. City of Ottawa / Social Planning Council of Ottawa.
+[https://2021-census-highlights-for-ottawa-and-region-spc-ottawa.hub.arcgis.com/pages/languages](https://2021-census-highlights-for-ottawa-and-region-spc-ottawa.hub.arcgis.com/pages/languages)
+
 City of Ottawa. (2023, November 22). 2021 Long Form Census – Ward Data [Data set]. Planning, Real Estate and Economic Development Department, Research & Forecasting Branch. Open Data Ottawa. [https://open.ottawa.ca/datasets/ottawa::2021-long-form-census-ward-data/about](https://open.ottawa.ca/datasets/ottawa::2021-long-form-census-ward-data/about)
 
 Statistics Canada. (2020, September 23). Data accuracy and validation: Methods to ensure the quality of data [Video]. Updated November 25, 2021. Statistics Canada. [https://www.statcan.gc.ca/en/wtc/data-literacy/catalogue/892000062020008](https://www.statcan.gc.ca/en/wtc/data-literacy/catalogue/892000062020008)
 
-Government of Canada, S. C. (2022, May 11). Data accuracy and validation: Methods to ensure the quality of data. Government of Canada, Statistics Canada. https://www.statcan.gc.ca/en/wtc/data-literacy/catalogue/892000062020008  
+Government of Canada, S. C. (2022, May 11). Data accuracy and validation: Methods to ensure the quality of data. Government of Canada, Statistics Canada. [https://www.statcan.gc.ca/en/wtc/data-literacy/catalogue/892000062020008](https://www.statcan.gc.ca/en/wtc/data-literacy/catalogue/892000062020008) 
 
-Marier, J.-S. (2021, October 9). Cleaning Data in Google Sheets. YouTube. https://youtu.be/U4yigiawIEU?si=oNA67oGIGaIFeZVr 
+Government of Ontario. (2021). Profile of the Francophone population in Ontario – 2021. Government of Ontario.
+[https://www.ontario.ca/page/profile-francophone-population-ontario-2021](https://www.ontario.ca/page/profile-francophone-population-ontario-2021)
+
+Marier, J.-S. (2021, October 9). Cleaning Data in Google Sheets. YouTube. [https://youtu.be/U4yigiawIEU?si=oNA67oGIGaIFeZVr](https://youtu.be/U4yigiawIEU?si=oNA67oGIGaIFeZVr)
+
+Office of the Commissioner of Official Languages. (2023, June 14). Canadians for Language Fairness v. Ottawa (City). Office of the Commissioner of Official Languages.
+[https://www.clo-ocol.gc.ca/en/decisions/court-decisions/canadians-language-fairness-v-ottawa-city](https://www.clo-ocol.gc.ca/en/decisions/court-decisions/canadians-language-fairness-v-ottawa-city)
